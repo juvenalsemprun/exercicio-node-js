@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const express = require("express");
 const door = 8080;
 const app = express(); 
-
+app.use(express.json())
 const task = require("./modelo")
 
 
